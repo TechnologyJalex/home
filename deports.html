@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bet 54 | Deportes</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161714617-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-161714617-2');
+    </script>
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdn.apuestay.com/css/bootstrap.min.css">
+    <!--Custom-->
+    <link rel="icon" href="/bet54/icono.ico" type="image/icon type">
+    <link rel="stylesheet" href="https://cdn.apuestay.com/skins/casinozeta/css/main.css?v=1.0.34">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.apuestay.com/assets/js/jquery-ui.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.apuestay.com/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="https://cdn.apuestay.com/Scripts/jquery.validate.messages-ES.js"></script>
+    <script src="https://cdn.apuestay.com/assets/js/jquery.ui.datepicker-es.js"></script>
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css">
+    <!--Fancy Box-->
+    <link rel="stylesheet" href="https://cdn.apuestay.com/assets/css/jquery.fancybox.css?version=1.0.34">
+    <!-- Fancy box login-->
+    <script src="https://cdn.apuestay.com/assets/js/fancy-box/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.apuestay.com/assets/js/fancy-box/login-fancy.js?version=1.0.34"></script>
+    <script src="https://cdn.apuestay.com/assets/js/jquery.mask.js"></script>
+    <script src="https://cdn.apuestay.com/assets/js/custom.js"></script>
+    <script src="https://cdn.apuestay.com/js/custom.js?version=1.0.34" type="text/javascript"></script>
+    <script src="https://cdn.apuestay.com/Scripts/utils.js?version=1.0.34" type="text/javascript"></script>
+
+    <script src="https://sport.casinozeta.com/js/Partner/IntegrationLoader.min.js"></script>
+</head>
+
+<body class="deportes">
+
+    <script type="text/javascript">
+        var isLogged = false;
+    </script>
+
+
+
+    <head>
+        <style type="text/css">
+            #message {
+                position: absolute;
+                left: 30%;
+            }
+            
+            .casino #messageMobile {
+                display: none;
+            }
+            
+            .alert-warning-contingencia {
+                border-radius: 0px;
+                color: #ffffff;
+                font-size: 0.7rem;
+                background-color: #FF7600;
+                border-color: #FF7600;
+                width: 100%;
+                margin-bottom: 0;
+                z-index: 9999;
+                padding: 10px;
+                border-radius: 2px;
+                text-align: center;
+            }
+            
+            #messageMobile {
+                position: relative;
+            }
+        </style>
+    </head>
+
+    <header>
+
+
+
+        <nav class="navbar navbar-expand-lg navbar-light main-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+
+
+                    <img src="/bet54/Bet54.jpeg" alt=casinozeta>
+                </a>
+
+                <div class="navbar-middle-item desktop-item">
+
+                    <!-- Nav Menu DESKTOP -->
+                    <div class="menu-desktop">
+                        <a href="/casino_home.html" class="link" id="">
+                            <span>Inicio</span>
+                        </a>
+                        <a href="/casino_ini.html" class="link" id="">
+                            <span>Casino</span>
+                        </a>
+
+                        <a href="/casino_vivo.html" class="link" id="">
+                            <span>Casino en vivo</span>
+                        </a>
+
+                        <a href="/deports.html" class="link" id="currentpage">
+                            <span>Deportes</span>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="navbar-right-item">
+
+                    <div class="btn-support" onclick="openLiveChatWindow()">
+                        <i class="fas fa-comment fa-fw"></i>
+                    </div>
+
+                    <button class="btn btn-outline login-mobile mobile-item" data-toggle="modal" data-target="#loginModal">ingresar</button>
+                    <button class="navbar-toggler form-control mr-sm-2  my-sm-0 expand-menu-mobile" type="button" data-target="#navbarGamesMenu">
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse user-nav" id="navbarLogin">
+                        <button class="btn btn-primary mr-2 mr-md-4-1 my-2 my-sm-0 login-mobile" data-toggle="modal" data-target="#loginModal">ingresar</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--Sub Menu-->
+
+
+        <!--Sub Menu inc/nav.php -->
+        <nav class="navbar navbar-expand-lg game-filters-into-menu ">
+            <div class="collapse navbar-collapse user-nav" id="navbarGamesMenu">
+                <div class="close-game-filters-into-menu"></div>
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item" id="">
+                            <a class="nav-link" href="casino_ini.html">
+                                <img src="https://cdn.apuestay.com/assets/img/icons/home.svg" alt="">
+                                <span class="nameNav">Inicio</span>
+                            </a>
+                        </li>
+                        <li class="nav-item" id="">
+                            <a class="nav-link casinolink" href="casino_home.html">
+                                <img src="https://cdn.apuestay.com/assets/img/icons/casino.svg" alt="">
+                                <span class="nameNav">Casino</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" id="">
+                            <a class="nav-link casinolivelink" href="casino_vivo.html">
+                                <img src="https://cdn.apuestay.com/assets/img/icons/casino-vivo.svg" alt="">
+                                <span class="nameNav">Casino en vivo</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" id="currentpage">
+                            <a class="nav-link sportlink" href="deports.html">
+                                <img src="https://cdn.apuestay.com/assets/img/icons/deportes.svg" alt="">
+                                <span class="SectionName">Deportes</span>
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a href="#" onclick="openLiveChatWindow()" class="nav-link">
+                                <img src="https://cdn.apuestay.com/assets/img/icons/support.svg" alt="">
+                                <span class="SectionName">Soporte</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <form id="filterFormIntoMenu" action="casino_ini.html" method="post">
+            <input type="hidden" id=gameTypeIntoMenuInput name="gameType" />
+        </form>
+
+
+        <script type="text/javascript">
+            document.addEventListener("DOMContentLoaded", function() {
+                var filterForm = document.getElementById("filterFormIntoMenu");
+                filterForm.style.display = "none";
+            });
+
+            function RedirectCasinoLiveFromIntoMenu() {
+                var gameTypeNavInput = document.getElementById("gameTypeIntoMenuInput");
+                gameTypeNavInput.value = "Casino Vivo"
+                var filterForm = document.getElementById("filterFormIntoMenu");
+                filterForm.submit();
+            }
+        </script>
+
+
+        <script type="text/javascript">
+            $(function() {
+                $(".betDetail").click(function() {
+
+                    $.ajax({
+                        type: "POST",
+                        url: "/Account/GetPlayerBetLimits",
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "html",
+                        success: function(response) {
+                            $("#playerBetLimits").find(".modal-body").html(response);
+                            $("#playerBetLimits").modal('show');
+                        }
+                    });
+                });
+            });
+        </script>
+    </header>
+
+
+
+    <!--Modal loginModal-->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        Ingrese su usuario y contraseña para empezar a jugar.
+                    </h5>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <form class="form" id="signupFormMobile">
+                                <input name="__RequestVerificationToken" type="hidden" value="49XcEglF-4r_K_R2buAQvvd89MKIkKfCTPfzw7sfX3xkXUlvr6h-6klkOdHR7teJoA0JUTKD01ZwsIcu8Pa8aaGWJa6jUJe37VqAFMjSesE1" />
+                                <input class="form-control mr-sm-2  my-sm-0" type="text" id="LoginUserName" name="LoginUserName" maxlength="18" placeholder="Usuario" aria-label="Usuario" autocomplete="off">
+                                <div class="form-group pass-container">
+                                    <input type="password" class="form-control mr-sm-2  my-sm-0" id="LoginPassword" name="LoginPassword" maxlength="15" placeholder="Contrase&#241;a" aria-label="Contrase&#241;a" autocomplete="off">
+                                </div>
+                                <!--<a href="~/account/resetpassword" class="pass mr-sm-4  my-sm-0">¿Olvidó su contraseña?</a>-->
+                                <button id="ingresar" class="btn btn-primary mr-0 mr-md-4-1 my-2 my-sm-0" type="submit"><span style="display:none;" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> ingresar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+        <script type="text/javascript">
+        window.location.href =  "/Home/Maintenance";;
+        </script>
+    -->
+
+
+
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            var sp = [
+                ["server", "https://sport.casinozeta.com/"],
+                ["token", "-"],
+                ["currentPage", "Home"],
+                ["device", "d"],
+                ["language", "es"],
+                ["sportsBookView", "africanView"],
+                ["clearSiteStyles", false],
+                ["parent", "casinozeta.com"]
+            ];
+            SportFrame.frame(sp);
+        });
+
+
+        window.addEventListener("pageshow", function(event) {
+            var historyTraversal = event.persisted || (typeof window.performance != "undefined" && window.performance.navigation.type === 2);
+            if (historyTraversal) {
+                window.location.reload();
+            }
+        });
+    </script>
+    <div id="sport_div_iframe"></div>
+
+    <!--Modal Preferences-->
+    <div class="modal fade" id="preferences" tabindex="-1" role="dialog" aria-labelledby="preferencesTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        &#161;Bienvenido! Selecciona cu&#225;l ser&#225; tu p&#225;gina inicial de preferencia
+                    </h5>
+                    <p> Podr&#225;s editar esta selecci&#243;n desde tu perfil cuando lo desees.</p>
+                </div>
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                <div class="card-pref home">
+                                    <a href="#" class="btn btn-primary" onclick="selectStartPage('Home'); return false;">Home</a>
+                                </div>
+                            </div>
+
+                            <div class="col-6 col-md-3">
+                                <div class="card-pref deportivas">
+                                    <a href="#" class="btn btn-primary" onclick="selectStartPage('Deportes'); return false;">Apuestas Deportivas</a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="card-pref casino">
+                                    <a href="#" class="btn btn-primary" onclick="selectStartPage('Casino'); return false;">Casino</a>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="card-pref casino-vivo">
+                                    <a href="#" class="btn btn-primary" onclick="selectStartPage('CasinoVivo'); return false;">Casino en vivo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal" onclick="window.location.href = '/Home';">No estoy seguro, lo decidir&#233; mas adelante <i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Modal Poker-->
+    <div class="modal fade" id="poker-modal" tabindex="-1" role="dialog" aria-labelledby="poker-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="modal-title">Nuevo P&#243;ker</h1>
+                                <h4>Elige c&#243;mo jugar a tu deporte favorito</h4>
+                                <a class="btn btn-primary btn-block" href="/eventbetpoker/play">Jugar desde navegador</a>
+                            </div>
+
+                            <div class="col-md-12 poker-app-download">
+                                <div class="divider"></div>
+                                <h4>O pod&#233;s descargar P&#243;ker a tu dispositivo</h4>
+                                <a class="btn btn-primary btn-block" href="https://files.latpoker.net/downloads/EvPoker/win/EvPokerSetup.exe"><i class="fab fa-windows"></i>Windows</a>
+                                <a class="btn btn-primary btn-block" href="https://files.latpoker.net/downloads/EvPoker/android/EvPoker.apk"><i class="fab fa-android"></i>Android</a>
+                                <a class="btn btn-primary btn-block" href="https://files.latpoker.net/downloads/EvPoker/mac/EvPokerSetup.dmg"><i class="fab fa-apple"></i>MacOS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="datosModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" id="btnClose" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+
+                    <h2><span id="myModalHeader">Operaci&#243;n exitosa</span></h2>
+                    <p><span id="myModalBody">La acci&#243;n ejecutada se ha realizado correctamente.</span></p>
+                </div>
+                <div class="modal-footer">
+                    <a id="myModalAction" href="#" class="btn btn-primary btn-block seguro"><span id="myModalActionLabel">Aceptar</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fancybox" style="display: none;">
+        <div id="errors"></div>
+        <div id="succes" style="display: none;">Ingresando al sitio.</div>
+    </div>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 legal">
+                    <div class="navbar-brand">
+                        <img src="bet54/logoc.gif" alt="Bet54">
+                    </div>
+                    <p class="copyright">
+                        &copy; 2023 Todos los derechos reservados. Sitio Operado bajo Licencia de Curazao - Antillas Holandesas.
+                    </p>
+                    <div class="language-selector">
+                        <select class="form-control" id="Language" name="Language" onchange="CallSetLanguage(this.value)">
+                            <option selected="selected" value="es">Español</option>
+                            <option value="en">Inglés</option>
+                            <option value="pt">Portugués</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-4 footer-links">
+                            <h4>Secciones</h4>
+                            <ul>
+                                <li><a class="casinolink" href="/Casino">Casino</a></li>
+                                <li><a class="casinolink" href="#" onclick="javascript:GetByCategoryName('Casino','Classic')">Casino Clásico</a></li>
+                                <li><a class="casinolivelink" href="javascript:RedirectCasinoLive()">Casino Vivo</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 footer-links">
+                            <h4>Juegos</h4>
+                            <ul>
+                                <li><a class="casinolink" href="#" onclick="javascript:GetByCategoryName('Casino','Classic')">Tragamonedas</a></li>
+                                <li><a class="casinolink" href="#" onclick="javascript:GetBySubType('Casino','Ruleta')">Ruletas</a></li>
+                                <li><a class="casinolivelink" href="#" onclick="javascript:GetBySubType('Casino Vivo','RuletaVivo')">Ruleta en vivo</a></li>
+                                <li><a class="casinolivelink" href="#" onclick="javascript:GetBySubType('Casino Vivo','BlackjackVivo')">Blackjack en vivo</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 footer-links">
+                            <h4>Deportivas</h4>
+                            <ul>
+                                <li><a href="Static/ReglasDeportes.pdf">Reglamento</a></li>
+                                <li><a href="Static/Combinadas.pdf">Promo Combinada</a></li>
+                                <li><a href="Static/CerrarApuesta.pdf">Cerrar Apuestas</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="current-time-box">
+                        <p id="current-time" class="current-time"></p>
+                        <p id="current-date" class="current-date"></p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const options = {
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric',
+                hour12: true
+            };
+            document.getElementById('current-time').textContent = 'Hora: ' + now.toLocaleTimeString('es-ES', options);
+
+            const dateOptions = {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            };
+            document.getElementById('current-date').textContent = 'Fecha: ' + now.toLocaleDateString('es-ES', dateOptions);
+        }
+
+        updateTime(); // Actualizar al cargar la página
+        setInterval(updateTime, 1000); // Actualizar cada segundo
+    </script>
+
+    <script type="text/javascript">
+        function CallSetLanguage(val) {
+            window.location.href = "/Language/SetLanguage?name=" + val;
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#LoginUserName").val("");
+            $("#LoginPassword").val("");
+        });
+    </script>
+
+
+
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script type="text/javascript">
+        window.__lc = window.__lc || {};
+        window.__lc.license = 7635441;
+        (function() {
+            var lc = document.createElement('script');
+            lc.type = 'text/javascript';
+            lc.async = true;
+            lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(lc, s);
+        })();
+
+        $(document).ready(function() {
+            hideChatWidget();
+        });
+
+        function hideChatWidget() {
+            try {
+                var iframe = document.getElementById('chat-widget');
+
+                if (iframe != null) {
+                    // The loading is complete, call the function we want executed once the iframe is loaded
+                    if (typeof(LC_API) !== "undefined" && LC_API !== null) {
+                        if (LC_API.is_loaded && LC_API.chat_window_minimized()) {
+                            LC_API.hide_chat_window();
+                            return;
+                        }
+                    }
+                }
+
+                // If we are here, it is not loaded. Set things up so we check   the status again in 100 milliseconds
+                window.setTimeout(hideChatWidget, 100);
+            } catch (error) {
+                window.setTimeout(hideChatWidget, 100);
+            }
+        }
+    </script>
+    <noscript>
+        <a href="https://www.livechatinc.com/chat-with/10946267/" rel="nofollow">Chat with us</a>,
+        powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+    </noscript>
+    <!-- End of LiveChat code -->
+
+
+
+    <form id="filterFormNav" action="/Casino" method="post">
+        <input type="hidden" id=gameTypeNavInput name="gameType" />
+    </form>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            var filterForm = document.getElementById("filterFormNav");
+            filterForm.style.display = "none";
+        });
+
+        function RedirectCasinoLive() {
+            var gameTypeNavInput = document.getElementById("gameTypeNavInput");
+            gameTypeNavInput.value = "Casino Vivo"
+            var filterForm = document.getElementById("filterFormNav");
+            filterForm.submit();
+        }
+    </script>
+</body>
+
+</html>
